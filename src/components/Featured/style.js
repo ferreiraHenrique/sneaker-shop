@@ -6,6 +6,7 @@ export const Container = styled.div`
   grid-template-rows: auto 400px auto;
 
   grid-column: 2;
+  grid-row: 1;
   background: #92b6cf;
 
   img {
@@ -41,6 +42,7 @@ export const TitleContainer = styled.div`
   grid-row: 3;
   display: grid;
   color: #030303;
+  opacity: .7;
   text-align: right;
   padding-right: 20px;
 

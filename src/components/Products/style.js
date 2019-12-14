@@ -69,10 +69,12 @@ export const Product = styled.div`
       animation-duration: .4s;
       animation-fill-mode: forwards;
       transition: transform .4s ease;
+      opacity: .7;
     }
 
     span {
       color: ${props => props.color? props.color : '#fff' };
+      opacity: ${props => props.color? .7 : 1};
     }
   }
 `;
